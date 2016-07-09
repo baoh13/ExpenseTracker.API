@@ -20,6 +20,7 @@ namespace ExpenseTracker.API
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional });
 
+            // Adding a comment for testing git hub
             config.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
 
             config.Formatters.JsonFormatter.SerializerSettings.Formatting
